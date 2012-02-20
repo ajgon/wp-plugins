@@ -1,0 +1,29 @@
+#titlediv #short-title {
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+    font-size: 1.7em;
+    line-height: 100%;
+    outline: medium none;
+    padding: 3px 8px;
+    width: 100%;
+    position: relative;
+    top: 31px;
+}
+
+#titlediv #short-title-prompt-text {
+    color: #BBBBBB;
+    font-size: 1.7em;
+    padding: 8px 10px;
+    position: absolute;
+    top: 31px;
+}
+
+#titlediv #title {
+    position: relative;
+    top: -31px;
+}
+
+#titlediv #short-title-prompt-text,
+#titlediv #title-prompt-text {
+    z-index: 10;
+}
